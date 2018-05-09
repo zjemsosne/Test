@@ -1,0 +1,124 @@
+#app {
+
+}
+
+html, body {
+  font-family: 'Didact Gothic';
+  background-color: #025670;
+}
+
+body {
+  margin: 0;
+  margin-top: 10%;
+}
+
+h1 {
+  font-weight: lighter;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.block {
+  width: 500px;
+  height: 75%;
+  background-color: #FFF;
+  border-radius: 5% 5% 0 0;
+}
+
+.block2 {
+  height: 20%;
+  background-color: #00BFFE;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  height: 600px;
+  width: auto;
+  border-radius: 5%;
+}
+
+.fieldBorder {
+  width: 89%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+input {
+  padding: 15px;
+  border: none;
+  font-family: 'Didact Gothic';
+}
+
+label {
+  border-right: 1px solid lightgrey;
+  margin-right: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+#userIcon {
+  width: 5%;
+}
+
+#dateFrom {
+  margin-left: 90px;
+  border-right: 1px solid lightgrey;
+  margin-right: 50px;
+}
+
+textarea {
+  font-family: 'Didact Gothic';
+  margin-top: 25px;
+  margin-left: 100px;
+  width: 300px;
+  height: 185px;
+  border: 1px solid lightgrey;
+}
+
+.availability {
+  text-align: center;
+}
+
+.sendRequest {
+  color: #FFF;
+  border: 1px solid #FFF;
+  padding: 15px 50px 15px 50px;
+  cursor: pointer;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.sendRequest:hover {
+  border-radius: 5%;
+  transform: scale(0.9);
+}
